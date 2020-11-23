@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+  <!-- <title>CSS3 - Neumorphic Social Icons</title> -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+</head>
+
+
+<body>
+  <p  style="color:blue;">
+    <div class="icons second">
+      <li><a href="https://www.youtube.com/"><span class="fab fa-discord"></span></a></li>
+      <li><a href="https://www.youtube.com/"><span class="fab fa-youtube"></span></a></li>
+      <li><a href="https://github.com/elemnetsoftech/ElementSoftech."><span class="fab fa-github"></span></a></li>
+    </div>
+  </div>
+  <script>
+    $('.first li').click(function () {
+      $(this).toggleClass("shadow-1").siblings();
+      $(this).toggleClass("fill-color").siblings();
+    });
+    $('.second li').click(function () {
+      $(this).toggleClass("shadow-2").siblings();
+      $(this).toggleClass("fill-color").siblings();
+    });
+  </script>
+</p>
+<button data-modal-target="#modal">Open Modal</button>
+<div class="modal" id="modal">
+  <div class="modal-header">
+    <div class="title">Example Modal</div>
+    <button data-close-button class="close-button">&times;</button>
+  </div>
+  <div class="modal-body">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati
+    distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam
+    accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet
+    assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem
+    maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius
+    libero. Ex, repellat sapiente!
+  </div>
+</div>
+<div id="overlay"></div>
+</body>
+
+</html>
